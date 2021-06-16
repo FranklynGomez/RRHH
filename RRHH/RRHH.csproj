@@ -185,6 +185,10 @@
       <Project>{c0563c0c-3195-469d-9865-a2cba56dd14c}</Project>
       <Name>Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{3c5e7cb7-f135-4bed-8c19-1e38f7d179d5}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
