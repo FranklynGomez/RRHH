@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Class1.cs" />
+    <Compile Include="Models\EVALUACION_RRHH.cs" />
     <Compile Include="Models\FORM_RRHH.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RRHHContext.cs" />

@@ -12,7 +12,7 @@ namespace Data.Models
         public string NOMBRE { get; set; }
         public string APELLIDO { get; set; }
         public string EMAIL { get; set; }
-        public int TELEFONO { get; set; }
+        public string TELEFONO { get; set; }
         public string IDENTIFICACION { get; set; }
         public string GENERO { get; set; }
         public DateTime FECHA_NACIMIENTO { get; set; }
@@ -21,6 +21,7 @@ namespace Data.Models
         public string DIRECCION { get; set; }
         public int ULTIMO_SALARIO { get; set; }
         public int SALARIO_MINIMO { get; set; }
+        public DateTime FEC_TRA { get; set; }
 
     }
 }
